@@ -1,0 +1,11 @@
+age;job;marital;education;default;balance;housing;loan;contact;day;month;duration;campaign;pdays;previous;poutcome;y
+30;management;married;tertiary;no;1000;yes;no;cellular;5;may;300;1;-1;0;unknown;yes
+45;technician;single;secondary;no;2000;no;no;cellular;6;may;150;2;-1;0;unknown;no
+22;student;single;secondary;no;-100;no;yes;cellular;7;jun;400;1;-1;0;unknown;yes
+60;retired;married;primary;no;5000;no;no;telephone;8;jun;600;3;100;2;success;yes
+38;blue-collar;married;secondary;yes;-500;yes;yes;unknown;9;jul;100;5;-1;0;unknown;no
+51;admin.;divorced;tertiary;no;300;yes;no;cellular;10;jul;250;1;200;1;failure;no
+29;services;single;secondary;no;800;yes;no;cellular;11;aug;120;4;-1;0;unknown;no
+67;retired;married;primary;no;12000;no;no;telephone;12;aug;500;1;-1;0;unknown;yes
+41;management;married;tertiary;no;2500;yes;no;cellular;13;sep;200;2;30;3;success;yes
+33;technician;single;tertiary;no;0;no;no;unknown;14;oct;90;12;-1;0;unknown;no

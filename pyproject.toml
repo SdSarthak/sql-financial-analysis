@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-financial-analysis"
+version = "1.0.0"
+description = "SQL-first financial and campaign analytics over a retail bank client book"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sarthak Doshi" }]
+keywords = ["sql", "finance", "analytics", "sqlite", "postgresql"]
+dependencies = []
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+sqlfin = "sqlfin.cli:main"
+
+[tool.setuptools]
+packages = ["sqlfin"]
+
+[tool.setuptools.package-data]
+sqlfin = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

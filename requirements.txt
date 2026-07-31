@@ -1,0 +1,9 @@
+# Runtime dependencies.
+#
+# The default SQLite backend needs nothing beyond the Python standard library, so this
+# file is intentionally empty of hard requirements. Install the PostgreSQL driver only
+# if SQLFIN_DATABASE_URL points at a PostgreSQL server:
+#
+#   pip install "psycopg[binary]>=3.1"
+#
+# or, equivalently:  pip install -e ".[postgres]"

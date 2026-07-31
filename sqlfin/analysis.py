@@ -45,7 +45,7 @@ def load_analysis_file(path: Path) -> Analysis:
 
     path = Path(path)
     text = path.read_text(encoding="utf-8")
-    statements = split_statements(text)
+    statements = [s for s in split_statements(text) if strip_leading_comments(s)]
     if not statements:
         raise AnalysisError(f"{path.name} contains no SQL statement")
     if len(statements) > 1:
