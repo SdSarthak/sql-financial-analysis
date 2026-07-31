@@ -50,6 +50,9 @@ contact_bucket  clients  subscriptions  conversion_rate_pct  cumulative_conversi
 11+ calls       9        0              0                    15.50                      -
 ```
 
+A full example of the generated report pack is committed at
+[`docs/example-report.md`](docs/example-report.md).
+
 ## The analyses
 
 | Name | Question it answers |
